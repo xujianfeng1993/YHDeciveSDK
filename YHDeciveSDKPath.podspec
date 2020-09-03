@@ -89,7 +89,7 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "YHDeciveSDKPath"
+  spec.source_files  = "YHDeciveSDK.a","include/YHDeviceSDK/*.{h,m}","usr/local/include/*.{h,m}"
   #spec.exclude_files = "YHDeciveSDK/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
